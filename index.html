@@ -31,13 +31,46 @@ body{background-color:#000;font-family:var(--gaya-font);padding: 20px 25px;-webk
 
 blockquote{position:absolute;opacity:0;visibility:hidden;transform: scale(.1);transition:all .7s ease;margin-left:0;margin-right:0;color:var(--tombol-teks);text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);}
 blockquote{width:400px;text-align:center;line-height:1.3em;padding:0}
-blockquote p{font-size:16px;font-weight:400;line-height:1.5em;transition:all .5s ease;margin-left:15px;margin-right:15px}
+blockquote p{
+  font-family: var(--gaya-font2); /* SAME as ✨ Шинэ жилийн мэнд хүргэе */
+  font-size:16px;
+  font-weight:400;
+  line-height:1.6em;
+  transition:all .5s ease;
+  margin-left:15px;
+  margin-right:15px
+}
+#kalimat{
+  font-size:17px;
+}
+
+
 blockquote p:not(#kalimat, #teksnim){display:none;}
 #teksnim, blockquote p span.ft{font-family:var(--gaya-font2);font-size:20px;font-weight:700}
 #teksnim{font-size:22px;position:absolute;opacity:0;transform:scale(0);transition:all .8s ease}
 
 #pergeseran{margin-top:40px;position:absolute;opacity:0;transform:scale(0);transition:all 1s ease;display:flex;flex-wrap:nowrap;align-items:flex-start;justify-content:flex-start;max-width:500px;padding:0 30px; overflow-y:hidden;overflow-x:hidden;scroll-behavior:smooth;scroll-snap-type:x mandatory; -ms-overflow-style:none;-webkit-overflow-scrolling:touch}
-#pergeseran p{background:rgba(0, 0, 0, .2);border:2px solid #fff;border-radius:30px;padding:15px;display:flex;flex-wrap:nowrap;text-align:center;line-height:1.4em;align-items:center;justify-content:center;flex-shrink:0; width:90%;height:150px;margin:0 15px 0 0; scroll-snap-align:center}
+#pergeseran p span{
+  font-size:17px;
+}
+
+#pergeseran p{
+  background:rgba(0, 0, 0, .2);
+  border:2px solid #fff;
+  border-radius:35px;
+  padding:25px;
+  display:flex;
+  flex-wrap:nowrap;
+  text-align:center;
+  line-height:1.5em;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  width:95%;
+  height:200px;   /* ⬅ BIGGER BOX */
+  margin:0 20px 0 0;
+  scroll-snap-align:center
+}
 #pergeseran p, #psn{color:white;text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);min-height:150px;}
 #pergeseran > *:last-child{margin-right:0} #pergeseran:after{content:'';display:block;flex-shrink:0; align-self:stretch;padding-left:20px}
 #pergeseran p b{display:block;}
@@ -157,13 +190,15 @@ blockquote p:not(#kalimat, #teksnim){display:none;}
         Шинэ он ирэхтэй зэрэгцээд чамд сэтгэлээсээ хэдэн үг бичмээр санагдлаа.<br>
         Энэ жилд чи миний бодлыг олон удаа дүүргэж, өдрүүдийг минь илүү дулаахан болгосон хүн байсан.<br>
         <br>
-        Чиний инээмсэглэл надад урам өгдөг. Тиймээс хэцүү санагдах үедээ өөртөө итгээд, урагшаа тэмүүлсээр байгаарай - Шантарч болохгүй шүү. Чи үнэхээр чадна гэж би итгэж байна.<br>
-
-        Ирэх он чиний хувьд аз жаргал, амжилт, зөөлөн мөчүүдээр дүүрэн байгаасай.<br>
+        Чиний инээмсэглэл надад урам өгдөг. Хэцүү санагдах үедээ өөртөө итгээд, урагшаа тэмүүлсээр байгаарай.<br>
+        Хийхийг хүссэн бүх зүйл чинь зоригтой эхэлж, зүрх сэтгэл чинь үргэлж гэрэлтэй байгаасай гэж хүсэж байна.<br>
+        Чи байгаагаараа л уур амьсгалыг зөөлрүүлж чаддаг хүн шүү<br>
+        Чи үнэхээр чадна гэж би итгэж байна.✨✨<br>
+        <br>
+        Ирэх он чиний хувьд аз жаргалтай, инээдтэй, сайхан мөчүүдээр дүүрэн байгаасай.<br>
         Мөн чиний гэр бүлд эрүүл энх, амар амгалан бүхнийг чин сэтгэлээсээ хүсье.<br>
-      <br>,<br><span class="ft"> Шинэ жилийн мэнд хүргэе !💫</span></p>
+      <br>,<br><span class="ft">✨ Шинэ жилийн мэнд хүргэе !💫</span></p>
      </blockquote></div>
-     
    </div>
 
     <div id="scontainer">
